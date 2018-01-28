@@ -24,5 +24,12 @@ namespace Invt
             add.Show();
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ModificaInventario modifica = new ModificaInventario();
+            modifica.Show();
+            this.Close();
+        }
     }
 }
